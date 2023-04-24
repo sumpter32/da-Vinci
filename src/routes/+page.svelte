@@ -83,7 +83,7 @@
   <div class="flex flex-col w-full px-0 items-center h-full">
 	<div class="chat-container w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 	  <div class="flex flex-col gap-2">
-		<ChatMessage type="assistant" message="What do you want!" />
+		<ChatMessage type="assistant" message="Ciao! I am Leonardo da Vinci, the Renaissance man who dabbled in art, science, and invention. Let's unleash our creativity and curiosity!" />
 		{#each chatMessages as message}
 		  <ChatMessage type={message.role} message={message.content} />
 		{/each}
